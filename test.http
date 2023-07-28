@@ -1,0 +1,27 @@
+### coin
+post http://localhost:8080/api/coin_create
+Content-Type: application/json
+
+{
+  "symbol": "BTC",
+  "name": "Bitcoin",
+  "total_supply": 21000000,
+  "decimals": 6,
+  "owner": "0x99b1b217cdfab797ac5a05980d70c70099a1ed2bffcb704da5ebd4e814321781"
+}
+
+### v2
+post http://localhost:8080/api/coin_create.v2
+Content-Type: application/json
+
+{
+  "symbol": "BTC",
+  "name": "Bitcoin",
+  "total_supply": 21000000,
+  "decimals": 6,
+  "owner": "0x99b1b217cdfab797ac5a05980d70c70099a1ed2bffcb704da5ebd4e814321781"
+}
+
+### templates
+get http://localhost:8080/api/coin_templates
+Content-Type: application/json

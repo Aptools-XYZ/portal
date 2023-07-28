@@ -1,0 +1,618 @@
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 0.07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
+body.logged-in div#beacon-container {
+  display: none;
+}
+
+/* TEMP IE & Edge fix */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .elementor-invisible {
+    visibility: visible;
+  }
+}
+@supports (-ms-ime-align: auto) {
+  .elementor-invisible {
+    visibility: visible;
+  }
+}
+
+/* Heading styling */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+/* Header nav font family fix */
+.navbar .navbar-nav .dropdown-menu li a {
+  font-family: Nunito Sans;
+}
+
+/* Header nav cart icon styling */
+header.banner .themo_cart_icon {
+  border: 0 !important;
+  padding-left: 0;
+}
+header.banner:not(.headhesive--stick) .themo_cart_icon {
+  margin-top: 25px;
+}
+.headhesive--clone .themo_cart_icon {
+  margin-top: 15px;
+}
+
+/* TEMP until 4.1.1 */
+body p:empty:before {
+  content: none;
+}
+
+/* Temp overflow fix */
+html {
+  overflow-x: hidden;
+}
+
+/* TEMP fix for dropdown menu issue */
+@media (min-width: 768px) and (max-width: 1449px) {
+  .navbar .navbar-nav .dropdown .dropdown .dropdown-menu {
+    right: auto;
+  }
+}
+
+/* Minify fixes */
+.elementor-section-boxed .elementor-column-gap-wider .elementor-row {
+  width: calc(100% + 60px);
+  margin-left: -30px;
+  margin-right: -30px;
+}
+body.post-type-archive-product .col-sm-8 .products.columns-3 li.product {
+  width: 30.66%;
+}
+
+/* Simple mega menu styling */
+@media (min-width: 768px) {
+  ul.navbar-nav li.col2-mega ul {
+    min-width: 480px;
+  }
+  ul.navbar-nav li.col2-mega ul li {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1025px) {
+  ul.navbar-nav li.col3-mega ul {
+    min-width: 660px;
+  }
+  ul.navbar-nav li.col3-mega ul li {
+    float: left;
+    width: 33%;
+  }
+}
+
+/* Simple mega menu for HFE */
+@media (min-width: 1025px) {
+  ul.hfe-nav-menu li.col3-mega ul.sub-menu {
+    min-width: 660px;
+  }
+  ul.hfe-nav-menu li.col3-mega ul.sub-menu li {
+    float: left;
+    width: 33%;
+  }
+}
+
+/* Hide images on search results page */
+body.search-results .post .wp-post-image {
+  display: none;
+}
+
+/* Temp styling for Design Agency page */
+body.page-id-7629 .th-portfolio-item .th-port-sub {
+  font-family: "DM Sans", Sans-serif;
+}
+body.page-id-7629 footer.footer {
+  display: none;
+}
+
+/* Temp hide footer on Freelancer page & DeFi page */
+body.page-id-7364 footer.footer,
+body.page-id-8044 footer.footer {
+  display: none;
+}
+
+/* App Landing page */
+
+body.page-id-5410 footer {
+  display: none;
+}
+
+.th-app-landing-review-col {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+body.page-id-5410
+  .elementor-section-boxed.elementor-inner-section
+  .elementor-container,
+body.page-id-5410
+  .elementor-section-boxed
+  .elementor-inner-section
+  .elementor-container {
+  width: inherit;
+}
+
+/* Green Tech page */
+.page-id-10184 .content-editor,
+.page-id-10184 .content-editor h1,
+.page-id-10184 .content-editor h2,
+.page-id-10184 .content-editor h3,
+.page-id-10184 .content-editor h4,
+.page-id-10184 .content-editor h5,
+.page-id-10184 .content-editor h6,
+.page-id-10184 .content-editor p {
+  font-family: "DM Sans", "Lato", Helvetica, Arial, sans-serif;
+}
+
+.page-id-10184 footer.footer {
+  display: none;
+}
+
+/* Hosting page */
+.page-id-10281 .content-editor,
+.page-id-10281 .content-editor h1,
+.page-id-10281 .content-editor h2,
+.page-id-10281 .content-editor h3,
+.page-id-10281 .content-editor h4,
+.page-id-10281 .content-editor h5,
+.page-id-10281 .content-editor h6,
+.page-id-10281 .content-editor p,
+.page-id-10281 .content-editor li {
+  font-family: "DM Sans", "Lato", Helvetica, Arial, sans-serif;
+}
+
+/* Case Study page */
+.postid-10522 .content-editor,
+.postid-10522 .content-editor h1,
+.postid-10522 .content-editor h2,
+.postid-10522 .content-editor h3,
+.postid-10522 .content-editor h4,
+.postid-10522 .content-editor h5,
+.postid-10522 .content-editor h6,
+.postid-10522 .content-editor p,
+.postid-10522 .content-editor li {
+  font-family: "DM Sans", "Lato", Helvetica, Arial, sans-serif;
+}
+
+/* IT Services page */
+.page-id-11147 .content-editor h1,
+.page-id-11147 .content-editor h2,
+.page-id-11147 .content-editor h3,
+.page-id-11147 .content-editor h4,
+.page-id-11147 .content-editor h5,
+.page-id-11147 .content-editor h6 {
+  font-family: "Rajdhani", "Lato", sans-serif;
+}
+.page-id-11147 .content-editor,
+.page-id-11147 .content-editor p,
+.page-id-11147 .content-editor li {
+  font-family: "Ubuntu", sans-serif;
+}
+.page-id-11147 .th-masonry-blog .post-meta a {
+  color: #6e6e6e;
+}
+.page-id-11147 footer .elementor,
+.page-id-11147 footer .elementor p,
+.page-id-11147 footer .elementor li,
+.page-id-11147 footer .elementor h3 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Business Consulting page */
+.page-id-11231 .content-editor,
+.page-id-11231 .content-editor h1,
+.page-id-11231 .content-editor h2,
+.page-id-11231 .content-editor h3,
+.page-id-11231 .content-editor h4,
+.page-id-11231 .content-editor h5,
+.page-id-11231 .content-editor h6,
+.page-id-11231 .content-editor p,
+.page-id-11231 .content-editor li {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* NFT Collection */
+.page-id-11645 .content-editor,
+.page-id-11645 .content-editor h1,
+.page-id-11645 .content-editor h2,
+.page-id-11645 .content-editor h3,
+.page-id-11645 .content-editor h4,
+.page-id-11645 .content-editor h5,
+.page-id-11645 .content-editor h6,
+.page-id-11645 .content-editor p,
+.page-id-11645 .content-editor li {
+  font-family: "DM Sans", sans-serif;
+}
+.page-id-11645 footer.footer {
+  display: none;
+}
+
+/* Help Desk SaaS */
+.page-id-12097 .content-editor,
+.page-id-12097 .content-editor h4,
+.page-id-12097 .content-editor h5,
+.page-id-12097 .content-editor h6,
+.page-id-12097 .content-editor p,
+.page-id-12097 .content-editor li,
+.page-id-12097 footer#colophon,
+.page-id-12097 footer#colophon h3 {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Crowdsourcing page */
+body.page-id-5367
+  .elementor-section-boxed.elementor-inner-section
+  .elementor-container,
+body.page-id-5367
+  .elementor-section-boxed
+  .elementor-inner-section
+  .elementor-container {
+  width: inherit;
+}
+
+/* App 3 Footer change */
+body.page-id-4933 .footer-widgets .frm_submit input[type="submit"] {
+  background-color: #48a9a6;
+}
+
+/* Startup 2 customizations */
+
+.page-id-4761 .th-linea.icon-basic-paperplane,
+.page-id-4761 .th-linea.icon-music-play-button {
+  font-size: 28px;
+}
+
+.page-id-4761 .elementor-counter-number-suffix {
+  font-size: 46px;
+}
+
+.page-id-4761
+  .elementor-section-boxed
+  .elementor-inner-section
+  .elementor-container {
+  width: 100%;
+}
+
+/* Temp fix for cloud homepage. */
+.page-id-191
+  .th-btn-form.btn-standard-primary-form
+  .frm_submit
+  input[type="submit"] {
+  background-color: #505bde;
+}
+
+body.page-id-191 .footer-widgets .frm_submit input[type="submit"] {
+  background-color: #505bde;
+}
+
+/* Temp fix for home support center */
+/* Body background */
+body.page-id-4343 {
+  background-color: #f7f7f7;
+}
+
+/* Footer Widget form */
+body.page-id-4343 .footer-widgets .frm_submit input[type="submit"],
+body.page-id-4343 .footer-widgets .frm_submit input[type="submit"]:hover {
+  background-color: #2575fc;
+  border-color: #2575fc;
+}
+
+/* Header inline form */
+body.page-id-4343 .frm_submit input[type="submit"] {
+  background-color: #30cfd0;
+  border-color: #30cfd0;
+}
+
+/* Header inline form */
+body.page-id-4343 .frm_submit input[type="submit"]:hover {
+  background-color: #3cd2d3;
+  border-color: #3cd2d3;
+}
+
+/* Temp fix for Groovy Side Drawer Menu color on Promo Product Home */
+
+@media (min-width: 1024px) {
+  .page-id-4123 .gm-navbar--style-2 ~ .gm-main-menu-wrapper {
+    background-color: #f7f7f7;
+  }
+}
+
+/* Temp fix for Groovy conflict */
+@media (min-width: 768px) {
+  body.admin-bar
+    .banner[data-transparent-header="true"]:not(.headhesive--stick) {
+    top: 0px;
+  }
+}
+
+/* Temp - SaaS page header */
+
+@media (min-width: 1200px) {
+  body.page-id-4097 header.banner .container {
+    max-width: 1320px !important;
+  }
+}
+/*body.page-id-4097 .themo_cart_icon {border:0 !important; padding-left:5px}*/
+
+body.page-id-4097
+  .banner[data-transparent-header="true"].navbar
+  .navbar-nav
+  > li.th-accent:hover {
+  background: transparent;
+}
+
+body.page-id-4097 .navbar-nav .th-accent {
+  margin-left: 14px;
+}
+
+body.page-id-4097 header.headhesive--clone {
+  /*display:none*/
+}
+
+/* Temp - App 2 header */
+
+/*body.page-id-264 .themo_cart_icon {border:0 !important; padding-left:5px}*/
+
+body.page-id-264
+  .banner[data-transparent-header="true"].navbar
+  .navbar-nav
+  > li.th-accent:hover {
+  background: transparent;
+}
+
+/* Temp - Parallax page */
+body.page-id-332
+  .banner[data-transparent-header="true"].navbar
+  .navbar-nav
+  > li.th-accent:hover {
+  background: transparent;
+}
+
+/* TEMP - Until next theme update*/
+.woocommerce-checkout .woocommerce-account-fields .input-checkbox {
+  margin-top: 8px !important;
+}
+
+.elementor-widget-themo-button .th-btn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.elementor-widget-themo-button .btn-image {
+  display: inline-block;
+}
+.elementor-widget-themo-button .btn-1 {
+  margin-right: 6px;
+}
+.elementor-widget-themo-button.th-btn-align-center .th-btn {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.elementor-widget-themo-button.th-btn-align-right .btn-1 {
+  margin-right: 0;
+}
+.elementor-widget-themo-button.th-btn-align-right .btn-2 {
+  margin-left: 6px;
+}
+.th-cta .btn-image {
+  display: inline-block;
+  padding: 0 !important;
+}
+.th-header-wrap .elementor-icon-box-title,
+.th-header-wrap .elementor-icon-box-description {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.elementor-widget-themo-header .th-btn-wrap .th-btn {
+  margin: 0 5px 10px 5px;
+}
+#main-flex-slider .slides .btn-image {
+  display: inline-block;
+  padding: 0 !important;
+}
+
+/* END TEMP */
+
+/*** Demo only */
+
+/* Adjust headings color */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+}
+
+/* Hide cart icon on iPad screen sizes */
+@media (max-width: 810px) {
+  .themo_cart_icon {
+    display: none;
+  }
+}
+
+/* Max width for Crypto slider title */
+.page-id-3807 .slides li:nth-child(1) h1.slider-title {
+  max-width: 400px;
+}
+
+/* Button spacing - Crypto slider */
+.page-id-3807 #main-flex-slider .th-btn-wrap {
+  margin-top: 30px;
+}
+
+/* Darken WC product imgs for contrast */
+.single-product .product img,
+.products .product img {
+  filter: brightness(95%);
+}
+.woocommerce span.onsale,
+.woocommerce ul.products li.product .onsale {
+  z-index: 5;
+}
+
+/* Hide Related Products from VR home */
+.page-id-171 .woocommerce .woocommerce-tabs,
+.page-id-171 .woocommerce .related.products {
+  display: none;
+}
+
+/* Hide Related Products from Laptop home & one-pager */
+.page-id-400 .woocommerce .woocommerce-tabs,
+.page-id-400 .woocommerce .related.products,
+.page-id-3187 .woocommerce .woocommerce-tabs,
+.page-id-3187 .woocommerce .related.products,
+.page-id-4322 .woocommerce .woocommerce-tabs,
+.page-id-4322 .woocommerce .related.products {
+  display: none;
+}
+
+/* Modify display of VR home top img for large and small screens */
+@media (max-width: 400px) {
+  .page-id-171
+    .elementor-171
+    .elementor-element.elementor-element-yooivlw {
+    background-size: cover !important;
+  }
+}
+@media (min-width: 1600px) {
+  .page-id-171
+    .elementor-171
+    .elementor-element.elementor-element-yooivlw {
+    background-position: bottom center !important;
+  }
+}
+
+/* Change button border radius for certain form types */
+.th-form-stacked input[type="submit"],
+.footer .frm_form_widget input[type="submit"],
+.th-conversion form input[type="submit"],
+.th-conversion .with_frm_style input[type="submit"] {
+  border-radius: 5px !important;
+}
+
+/* Fix minor issue with one dropdown sub menu */
+@media (min-width: 768px) {
+  .dropdown.menu-blog ul.dropdown-menu .dropdown-menu {
+    min-width: 185px;
+  }
+  .hfe-nav-menu .th-menu-blog .sub-menu {
+    width: 175px !important;
+    min-width: 175px !important;
+  }
+  .hfe-nav-menu .th-menu-blog .sub-menu .sub-menu {
+    width: 220px !important;
+    min-width: 220px !important;
+  }
+}
+
+#dse-quicksearchdiv * {
+  box-sizing: content-box;
+}
+
+#dse-quicksearchdiv svg {
+  box-sizing: content-box;
+}
+
+#dse-disabledpopup * {
+  box-sizing: content-box;
+}
+
+#dse-search:before {
+  left: -4px !important;
+  top: 38% !important;
+  height: 6px !important;
+  width: 6px !important;
+  border: 1px solid #484644 !important;
+  border-right: none !important;
+  border-top: none !important;
+  content: " " !important;
+  background: #484644 !important;
+  position: absolute !important;
+  transform: rotate(45deg) !important;
+}
+
+#dse-disabledpopup:before {
+  left: -4px !important;
+  top: 38% !important;
+  height: 6px !important;
+  width: 6px !important;
+  border: 1px solid #484644 !important;
+  border-right: none !important;
+  border-top: none !important;
+  content: " " !important;
+  background: #484644 !important;
+  position: absolute !important;
+  transform: rotate(45deg) !important;
+}
+
+.topArrow #dse-search:before {
+  left: 50% !important;
+  top: -4px !important;
+  height: 6px !important;
+  width: 6px !important;
+  border: 1px solid #484644 !important;
+  border-top: none !important;
+  border-left: none !important;
+  content: " " !important;
+  background: #484644 !important;
+  position: absolute !important;
+  transform: rotate(225deg) !important;
+}
+
+.topArrow #dse-disabledpopup:before {
+  left: 50% !important;
+  top: -4px !important;
+  height: 6px !important;
+  width: 6px !important;
+  border: 1px solid #484644 !important;
+  border-top: none !important;
+  border-left: none !important;
+  content: " " !important;
+  background: #484644 !important;
+  position: absolute !important;
+  transform: rotate(225deg) !important;
+}
+
+#dse-disabledpopup:hover:before,
+#dse-search:hover:before,
+#dse-moreoptions:hover,
+#dse-search:hover,
+#dse-copy:hover,
+#dse-disabledpopup:hover,
+#dse-lookup:hover,
+#dse-disableFeature:hover {
+  background-color: #666 !important;
+}
+
+#dse-disabledpopup:active:before,
+#dse-search:active:before,
+#dse-moreoptions:active,
+#dse-search:active,
+#dse-copy:active,
+#dse-disabledpopup:active,
+#dse-lookup:active,
+#dse-disableFeature:active {
+  background-color: #666 !important;
+}
